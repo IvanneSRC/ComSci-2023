@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FA 6</title>
+
+  <style>
+
+    a:yes {
+      color: blue;
+      text-decoration: none;
+    }
+
+ 
+    a:yes:hover {
+      color: blue;
+      background-color: lightgray;
+    }
+
+ 
+    a:first-of-type:active {
+      color: white;
+      background-color: darkblue;
+    }
+
+  
+    a:first-of-type:visited {
+      color: blue;
+      background-color: pink;
+    }
+
+    
+    a:nth-of-type(2) {
+      color: green;
+      text-decoration: none;
+    }
+
+  
+    a:nth-of-type(2):hover {
+      color: orange;
+      background-color: lightgreen;
+    }
+
+   
+    a:nth-of-type(2):active {
+      color: white;
+      background-color: darkgreen;
+    }
+
+   
+    a:nth-of-type(2):visited {
+      color: blue;
+      background-color: khaki;
+    }
+
+
+    div:first-of-type {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: lightyellow;
+      color: darkslategray;
+    }
+
+  
+    div:nth-of-type(2) {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: lightblue;
+      color: darkblue;
+      border: 2px solid green;
+    }
+
+  
+    div:nth-of-type(2):target {
+      border: 10px dotted green;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="#firstLink">1st Link</a>
+  <br>
+  
+  <a href="#secondLink">2nd Link</a>
+  <br>
+ 
+ <div id="firstLink">1st Div</div>
+  <br>
+  
+  <div id="secondLink">2nd Div</div>
+
+</body>
+</html>
